@@ -74,7 +74,7 @@ height: 200px; */
 
 .right {
     color: white;
-    background-color: grey;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,12 +82,10 @@ height: 200px; */
 }
 
 img {
-    display: flex;
     border: 1px solid #1F2937;
     width: 600px;
     height: 200px;
     object-fit: cover;
-
 }
 
 .header-logo {
