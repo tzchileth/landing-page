@@ -1,0 +1,31 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.cards,
+.quotes,
+.action,
+.footer {
+    display: flex;
+    flex: 1;
+}
+
+.cards,
+.action {
+    background: white;
+}
+
+.header,
+.footer {
+    background: #1F2937;
+}
