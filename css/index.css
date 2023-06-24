@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    line-height: 1.0;
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -26,12 +30,86 @@ body {
 }
 
 .header,
-.footer {
+.footer,
+.main {
     background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 80px;
 }
 
-.header {
+.main {
+    padding-bottom: 90px;
+    gap: 16px;
+}
+
+.left-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+.signup {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* width: 600px;
+height: 200px; */
+
+.right {
+    color: white;
+    background-color: grey;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    border: 1px solid #1F2937;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .footer {
