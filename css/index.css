@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-    line-height: 1.0;
-}
 
 body {
     height: 100vh;
@@ -62,7 +59,6 @@ button {
 }
 
 .signup {
-    background: #3882F6;
     background: #3882F6;
     border: 1px solid #3882F6;
     color: white;
@@ -131,6 +127,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-top: 0;
 }
 
 .tile {
@@ -147,8 +144,24 @@ h2 {
     object-fit: fill;
 }
 
-span {
+.wrap-me {
+    font-style: italic;
     width: 150px;
+    height: 38px;
+    color: #3882F6;
+    /* line-height: 1; */
+}
+
+.wrap-me>a {
+    color: #132b52;
+}
+
+.wrap-me>a:hover {
+    color: #550c1c;
+}
+
+.author>a:hover {
+    color: rgb(80, 13, 63);
 }
 
 .quotes {
@@ -162,7 +175,6 @@ span {
     padding-left: 300px;
     padding-right: 300px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .actual-quote {
@@ -182,6 +194,52 @@ span {
     padding: 0;
     display: flex;
     align-self: flex-end;
+
+}
+
+.author>a {
+    color: #132b52;
+}
+
+.action {
+    background: white;
+    justify-content: center;
+    padding: 50px;
+}
+
+.center-action {
+    display: flex;
+    background: #3882F6;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 30px 50px;
+    width: 700px;
+}
+
+.action-signup {
+    background: #3882F6;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.left-action>div {
+    font-weight: normal;
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.right-action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center-action>.left-action>.left-bold {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .footer {
@@ -189,4 +247,5 @@ span {
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 30px;
 }
