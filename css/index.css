@@ -151,6 +151,39 @@ span {
     width: 150px;
 }
 
+.quotes {
+    background: #E5E7EB;
+    flex-direction: column;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.actual-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    align-self: flex-end;
+}
+
+.author {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-end;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
